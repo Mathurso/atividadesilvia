@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Promoção</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Banner principal -->
+  <header class="banner">
+    <div class="overlay"></div>
+    <div class="banner-content">
+      <h1>Ganhe Seu Cupom Promocional!</h1>
+      <p>Descontos incríveis esperando por você. Inscreva-se agora!</p>
+    </div>
+  </header>
+
+  <!-- Formulário -->
+  <section class="form-section">
+    <h2>Solicite seu cupom</h2>
+    <form class="promo-form">
+      <!-- Nome -->
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+      <!-- E-mail -->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+      <!-- Cidade -->
+      <label for="city">Cidade:</label>
+      <input type="text" id="city" name="city" placeholder="Sua cidade" required>
+
+      <!-- Contato -->
+      <label for="contact">Contato:</label>
+      <input type="tel" id="contact" name="contact" placeholder="Seu número de telefone" required>
+
+      <!-- Cupom -->
+      <label for="promo-code">Cupom:</label>
+      <input type="text" id="promo-code" name="promo-code" placeholder="Digite 'PROMO2024'" required>
+
+      <!-- Cliente da Loja -->
+      <label>Você é cliente da loja?</label>
+      <div class="radio-group">
+        <label>
+          <input type="radio" name="is-customer" value="sim" required> Sim
+        </label>
+        <label>
+          <input type="radio" name="is-customer" value="nao" required> Não
+        </label>
+      </div>
+
+      <!-- Botão de Enviar -->
+      <button type="submit">Solicitar Cupom</button>
+    </form>
+  </section>
+
+  <!-- Seção de Produtos -->
+  <section class="products-section">
+    <h2>Produtos em Destaque</h2>
+    <div class="products">
+      <!-- Produto 1 -->
+      <div class="product product1">
+        <img src="https://cdn.awsli.com.br/1960/1960866/produto/125390796/a12dd9ac46.jpg" alt="Produto 1">
+        <h3>Camisa Vermelha</h3>
+        <p>Camisa Vermelha Vibrante - Perfeita para o verão.</p>
+        <button>Comprar Agora</button>
+      </div>
+      <!-- Produto 2 -->
+      <div class="product product2">
+        <img src="https://golden.vteximg.com.br/arquivos/ids/2365123-1000-1000/Relogio-Masculino-Analogico-Azul-Phillip-London---PL80259613MAZN.jpg?v=638661482613170000" alt="Produto 2">
+        <h3>Relógio Azul</h3>
+        <p>Relógio Elegante Azul - Um toque moderno.</p>
+        <button>Comprar Agora</button>
+      </div>
+      <!-- Produto 3 -->
+      <div class="product product3">
+        <img src="https://images.tcdn.com.br/img/img_prod/1130952/mochila_nike_heritage_dc4244_3817_1_26fa60b0a3be81968dfc369b98a6143b.jpg" alt="Produto 3">
+        <h3>Mochila Verde</h3>
+        <p>Mochila Verde Limão - Estilo e praticidade.</p>
+        <button>Comprar Agora</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
